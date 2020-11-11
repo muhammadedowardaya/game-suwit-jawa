@@ -79,3 +79,22 @@ ul li img,.area-komputer img {
 	font-size: 32px;
 	font-family: serif;
 }
+
+@media (max-width: 300px) {
+	.area-komputer img{
+		margin-top: 70px;
+
+	}
+	.informasi {
+		margin-top:  40px;
+	}
+	ul {
+		display: inline-flex;
+		margin-left: 5%;
+		margin-top:  5%;
+		justify-content: center;
+	}
+	.judul {
+		font-size: 12px;
+	}
+}
