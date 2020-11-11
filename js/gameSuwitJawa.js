@@ -74,6 +74,7 @@ let tanyaJKL = prompt('Apa jenis kelamin anda?\n note : \n- kalau gak tau jawab 
 			case 'laki' :
 			case 'Laki' :
 			case 'Laki-laki' :
+			case 'laki laki':
 			case 'cowok' :
 			case 'Cowok' :
 			case 'Pria' :
