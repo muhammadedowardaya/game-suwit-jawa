@@ -1,0 +1,81 @@
+html {
+	position: relative;
+}
+h3 a {
+	text-decoration: none;
+	color: lightgreen;
+}
+
+.batas {
+	margin-top: 100px;
+	border: 5px solid #222;
+	background-color: #eaeaea;
+	display: flex;
+	flex-direction: column;
+	min-height: 1000px;
+	position: relative;
+	
+}
+.score {
+	display: flex;
+	justify-content: space-around;
+	font-family: times;
+
+}
+
+.player,.computer {
+	flex-direction: column;
+	position: relative;
+}
+
+.hasilPlayer {
+	font-size: 52px;
+	position: absolute;
+	margin-left: 40%;
+}
+.hasilKomputer {
+	position: absolute;
+	margin-left: 40%;
+	font-size: 52px;
+}
+
+.area-komputer img{
+	margin-top: 70px;
+}
+ul {
+	display: inline-flex;
+	margin-left: 9%;
+	margin-top:  5%;
+	justify-content: center;
+}
+
+ul li{
+	list-style: none;
+
+}
+.judul {
+	background-color: #666;
+	color: yellow;
+	padding-bottom: 10px;
+}
+.judul2 {
+	background-color: #666;
+	font-size: 0.9em;
+	color: white;
+}
+
+.informasi {
+	margin-top:  80px;
+	background-color: #666;
+	color: white;
+}
+
+ul li img,.area-komputer img {
+	border-radius: 50%;
+	border: 5px solid #333;
+}
+.info {
+	font-weight: bold;
+	font-size: 32px;
+	font-family: serif;
+}
