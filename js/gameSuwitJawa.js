@@ -48,7 +48,10 @@ if(tanyaPlayer === false){
 	let namaPlayer = prompt('Nama kamu siapa?');
 	nilai.namaPlayer(namaPlayer); 
 	namaP.innerHTML = nilai.namaPlayer;
-	let tanyaJKL = prompt('Apa jenis kelamin anda?\n note : \n- kalau gak tau jawab aja \'gak tau\'');
+	
+}
+
+let tanyaJKL = prompt('Apa jenis kelamin anda?\n note : \n- kalau gak tau jawab aja \'gak tau\'');
 
 		switch(tanyaJKL) {
 			case 'Perempuan' :
@@ -61,6 +64,8 @@ if(tanyaPlayer === false){
 			case 'Wanita' :
 			case 'betina' :
 			case 'Betina' :
+			case 'akhwat' :
+			case 'ciwi' :
 				alert(`Hay ${nilai.namaPlayer} cantik, selamat bermain :)`);
 				break;
 			case 'cowo' :
@@ -84,7 +89,6 @@ if(tanyaPlayer === false){
 				alert(`Kamu tuh nulis apa sih ${nilai.namaPlayer} aku gak ngerti :(`);
 				break;
 			}
-		}
 
 
 let tanya = confirm('Ngaran komputer (lawan) na arek diganti moal?');
