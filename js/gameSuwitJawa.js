@@ -104,9 +104,9 @@ if(tanya === false){
 function getPilihanComputer (){
 	const comp = Math.random();
 
-	if (comp < 0.34) return 'gajah';
-	if ( comp >= 0.34 && comp < 0.67) return 'orang';
-	return 'semut';
+	if (comp < 0.34) return 'gajahh';
+	if ( comp >= 0.34 && comp < 0.67) return 'orangg';
+	return 'semutt';
 }
 
 
@@ -124,7 +124,7 @@ function getHasil(comp, player){
 
 function putar(){
 	const imgComputer = document.querySelector('.img-komputer');
-	const gambar = ['gajah','semut','orang'];
+	const gambar = ['gajahh','semutt','orangg'];
 	let i = 0;
 	const waktuMulai = new Date().getTime();
 	setInterval(function(){
