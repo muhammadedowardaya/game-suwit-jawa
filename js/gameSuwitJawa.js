@@ -66,6 +66,8 @@ if(tanyaPlayer === false){
 			case 'cowo' :
 			case 'Cowo' :
 			case 'laki-laki' :
+			case 'laki' :
+			case 'Laki' :
 			case 'Laki-laki' :
 			case 'cowok' :
 			case 'Cowok' :
@@ -79,7 +81,7 @@ if(tanyaPlayer === false){
 				alert(`Astaghfirullah ${nilai.namaPlayer}_- masa depan mu diragukan kecerahannya :v`);
 				break;
 			default :
-				alert(`Kamu tuh nulis apa sih ${nilai.namapPlayer} aku gak ngerti :(`);
+				alert(`Kamu tuh nulis apa sih ${nilai.namaPlayer} aku gak ngerti :(`);
 				break;
 			}
 		}
